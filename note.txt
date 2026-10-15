@@ -1,0 +1,3 @@
+npx tsc -v - shows versions
+npx tsc --init - creates tsconfig.json file
+npx tsc - runs typescript compiler and builds /dist if configured

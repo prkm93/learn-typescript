@@ -1,0 +1,12 @@
+	1	Explain in 2–3 sentences why the team should use TypeScript instead of plain JavaScript.
+Ans - TS provides Type safety and can help prevent bugs which can occur due to no type definition in Javascript. It can help find issues and for any mismatch of type during compile time and can highlight syntax for any red flags. 
+Ex - In Javscript, sometimes we don’t know what value will be coming from API , so we can predict which method to apply. If data is array and by expecting object we applied object methods on it, so it would be detected only during runtime. TS helps to resolve such problems by providing strict type safety.
+
+    2.  Write a very small example (2–3 lines) of a TypeScript variable declaration that includes a type (e.g., string, number, or boolean).
+Ans -   let numbers : number[] = [1,2,3]
+        let isAvailale: boolean = true
+        const names: string[] = [‘amit’, ‘ravi’]
+
+    3. Reflect in 1–2 sentences on how TypeScript could reduce bugs in this project.
+Ans -   By providing type safety and helping find potential errors during compile time, it can prevent bugs. In javascript , if we want to achieve this, we would need to define for every data which will increase the codebase length unnesarily.  Using TS, we can define types for all kind of functions, variable through types, interfaces , function signatures or generic and make code more reliable , maintainable and type safe.
+
